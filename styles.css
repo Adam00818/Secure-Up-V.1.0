@@ -1,0 +1,61 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ff6f00; /* Fondo naranja */
+    background-image: linear-gradient(135deg, #ff6f00, #ff9d00); /* Fondo con gradiente naranja */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+button {
+    padding: 12px 30px;
+    font-size: 18px;
+    background: linear-gradient(145deg, #25d366, #128c7e); /* Botón con gradiente verde */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Sombra sutil */
+    transition: all 0.3s ease;
+    margin-bottom: 15px; /* Espacio entre botones */
+}
+
+button:hover {
+    background: linear-gradient(145deg, #128c7e, #25d366); /* Cambio de gradiente en hover */
+    transform: translateY(-4px); /* Efecto de desplazamiento */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1); /* Sombra más fuerte */
+}
+
+#emergencyCallBtn {
+    background: linear-gradient(145deg, #e53935, #d32f2f); /* Fondo rojo para el botón de emergencias */
+}
+
+#emergencyCallBtn:hover {
+    background: linear-gradient(145deg, #d32f2f, #e53935); /* Cambio de gradiente en hover */
+}
+
+/* Estilo del mensaje */
+p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444;
+}
